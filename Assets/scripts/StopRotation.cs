@@ -11,4 +11,13 @@ public class StopRotation : MonoBehaviour
             rotacion.enabled = !rotacion.enabled;
         }
     }
+    
+    public void CambiarRotacionesAlSol()
+    {
+        foreach (var rotacion in rotacionesDeLosPlanetas)
+        {
+            rotacion.ResetRotationToSun();
+            rotacion.enabled = !rotacion.enabled;
+        }
+    }
 }

@@ -3,12 +3,12 @@ using UnityEngine;
 public class ActiveInformationRaycast : MonoBehaviour
 {
     public LayerMask layermask;
-    private Camera cam;
+    private Camera myCamera;
     private Touch myTouch;
     public bool onDevice;
     void Start()
     {
-        cam = Camera.main;
+        myCamera = Camera.main;
     }
 
     // Update is called once per frame
@@ -36,7 +36,7 @@ public class ActiveInformationRaycast : MonoBehaviour
 
     private void CheckRaycast(Vector3 target)
     {
-        Ray cameraRay = cam.ScreenPointToRay(target);
+        Ray cameraRay = myCamera.ScreenPointToRay(target);
         RaycastHit hit;
         if (Physics.Raycast(cameraRay, out hit, 500f, layermask))
         {

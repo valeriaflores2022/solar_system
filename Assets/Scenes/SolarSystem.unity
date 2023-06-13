@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -236,7 +236,7 @@ MonoBehaviour:
   m_PoseProviderComponent: {fileID: 0}
   m_TrackingType: 0
   m_UpdateType: 0
-  m_UseRelativeTransform: 0
+  m_UseRelativeTransform: 1
 --- !u!4 &22732924
 Transform:
   m_ObjectHideFlags: 0
@@ -244,13 +244,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 22732919}
-  m_LocalRotation: {x: 0.23089886, y: 0, z: 0, w: 0.97297776}
-  m_LocalPosition: {x: 0, y: 25.62, z: -10}
+  m_LocalRotation: {x: 0.17364816, y: 0, z: 0, w: 0.9848078}
+  m_LocalPosition: {x: 0, y: 30, z: -20}
   m_LocalScale: {x: 1.2033, y: 1.2033, z: 1.2033}
   m_Children: []
   m_Father: {fileID: 388525031}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 26.7, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 20, y: 0, z: 0}
 --- !u!114 &22732925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -266,7 +266,7 @@ MonoBehaviour:
   layermask:
     serializedVersion: 2
     m_Bits: 64
-  onDevice: 1
+  onDevice: 0
 --- !u!1 &98417581
 GameObject:
   m_ObjectHideFlags: 0
@@ -291,7 +291,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 98417581}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.7, z: 0}
+  m_LocalPosition: {x: 0, y: 0.55, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 308939251}
@@ -367,10 +367,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Mercurio es el primer planeta en orden de distancia al Sol y el m\xE1s
-    peque\xF1o del sistema solar, despu\xE9s de Mercurio.\r\nGravedad:  3,7 m/s2.\nRadio:2.439,7
-    km\r.\nMasa: 3,285 x 10^23 kg (0,055 M\u2295)\r.\nDuraci\xF3n del d\xEDa: 59d
-    0h 0m\r.\nDistancia desde el Sol: 58 millones km.\r\nPer\xEDodo orbital: 88 d\xEDas\r."
+  m_Text: "Saturno es el sexto planeta del sistema solar contando desde el Sol, el
+    segundo en tama\xF1o y masa despu\xE9s de J\xFApiter y el \xFAnico con un sistema
+    de anillos visible desde la Tierra.\r\nGravedad: 10,44 m/s2\nRadio: 58.232 km\r\nMasa:
+    5,683 x 10^26 kg (95,16 M\u2295)\r\nDuraci\xF3n del d\xEDa: 0d 10h 34m\r\nDistancia
+    desde el Sol: 1,434 miles de millones km\r\nPer\xEDodo orbital: 29 a\xF1os \r\nSat\xE9lites:
+    Tit\xE1n, Encelado, Mimas, Dione , Japeto, Tetis, Hiperi\xF3n, ( se especula
+    m\xE1s de 200).\r"
 --- !u!222 &106135457
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -472,7 +475,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 121308762}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 7, z: 0}
+  m_LocalPosition: {x: 0, y: 1.14, z: 0}
   m_LocalScale: {x: 1.1111112, y: 1.1111112, z: 1.1111112}
   m_Children: []
   m_Father: {fileID: 560996016}
@@ -509,7 +512,7 @@ TextMesh:
   m_FontSize: 50
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 12800000, guid: da16a728e99fc7c44966ef24d3a05064, type: 3}
+  m_Font: {fileID: 12800000, guid: 0c039de217646044084708a4fda2511b, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -532,7 +535,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: da16a728e99fc7c44966ef24d3a05064, type: 3}
+  - {fileID: 2100000, guid: 0c039de217646044084708a4fda2511b, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -738,7 +741,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MERCURIO
+  m_Text: NEPTUNO
 --- !u!222 &192449793
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -905,7 +908,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 203596572}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 961305855}
+        m_TargetAssemblyTypeName: SoundFX, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 932073134}
+        m_TargetAssemblyTypeName: StopRotation, Assembly-CSharp
+        m_MethodName: CambiarRotacionesAlSol
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &203596572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1014,7 +1041,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MERCURIO
+  m_Text: PLUTON
 --- !u!222 &209871212
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1042,7 +1069,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &215749751
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1238,7 +1265,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 269315441}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 10, z: 0}
+  m_LocalPosition: {x: 0, y: 1.2, z: 0}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_Children: []
   m_Father: {fileID: 897763880}
@@ -1313,8 +1340,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 289130988}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 143.4}
-  m_LocalScale: {x: 10.8, y: 10.8, z: 10.8}
+  m_LocalPosition: {x: 0, y: 0, z: 197.5}
+  m_LocalScale: {x: 21.6, y: 21.6, z: 21.6}
   m_Children:
   - {fileID: 816869888}
   - {fileID: 893988715}
@@ -1398,6 +1425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   earthDays: 10.8
   years: 0
+  initialRot: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &289130994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1439,7 +1467,7 @@ Transform:
   m_GameObject: {fileID: 308939250}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalScale: {x: 20, y: 20, z: 20}
   m_Children:
   - {fileID: 98417582}
   m_Father: {fileID: 560996016}
@@ -1648,7 +1676,7 @@ TextMesh:
   m_FontSize: 50
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 12800000, guid: da16a728e99fc7c44966ef24d3a05064, type: 3}
+  m_Font: {fileID: 12800000, guid: 0c039de217646044084708a4fda2511b, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -1671,7 +1699,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: da16a728e99fc7c44966ef24d3a05064, type: 3}
+  - {fileID: 2100000, guid: 0c039de217646044084708a4fda2511b, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1757,7 +1785,7 @@ TextMesh:
   m_FontSize: 50
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 12800000, guid: da16a728e99fc7c44966ef24d3a05064, type: 3}
+  m_Font: {fileID: 12800000, guid: 0c039de217646044084708a4fda2511b, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -1780,7 +1808,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: da16a728e99fc7c44966ef24d3a05064, type: 3}
+  - {fileID: 2100000, guid: 0c039de217646044084708a4fda2511b, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1872,7 +1900,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MERCURIO
+  m_Text: URANO
 --- !u!222 &365848077
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1945,7 +1973,7 @@ TextMesh:
   m_FontSize: 50
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 12800000, guid: da16a728e99fc7c44966ef24d3a05064, type: 3}
+  m_Font: {fileID: 12800000, guid: 0c039de217646044084708a4fda2511b, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -1968,7 +1996,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: da16a728e99fc7c44966ef24d3a05064, type: 3}
+  - {fileID: 2100000, guid: 0c039de217646044084708a4fda2511b, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2014,7 +2042,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 380704459}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 0.55, z: 0}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_Children: []
   m_Father: {fileID: 1382629676}
@@ -2286,7 +2314,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534472675}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0.65, z: 0}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_Children: []
   m_Father: {fileID: 897763880}
@@ -2316,7 +2344,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 540502375}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 5, z: 0}
+  m_LocalPosition: {x: 0, y: 0.73, z: 0}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_Children: []
   m_Father: {fileID: 289130989}
@@ -2496,7 +2524,7 @@ TextMesh:
   m_FontSize: 50
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 12800000, guid: da16a728e99fc7c44966ef24d3a05064, type: 3}
+  m_Font: {fileID: 12800000, guid: 0c039de217646044084708a4fda2511b, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -2519,7 +2547,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: da16a728e99fc7c44966ef24d3a05064, type: 3}
+  - {fileID: 2100000, guid: 0c039de217646044084708a4fda2511b, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2611,7 +2639,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MERCURIO
+  m_Text: JUPITER
 --- !u!222 &591577782
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2649,8 +2677,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 610790416}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 14.96}
-  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_LocalPosition: {x: 0, y: 0, z: 43.7}
+  m_LocalScale: {x: 12, y: 12, z: 12}
   m_Children:
   - {fileID: 1078999084}
   - {fileID: 1837383947}
@@ -2733,6 +2761,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   earthDays: 24
   years: 0
+  initialRot: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &610790422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2884,7 +2913,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 624348893}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0.7, z: 0}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_Children: []
   m_Father: {fileID: 1859430890}
@@ -2938,6 +2967,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   earthDays: 4380
   years: 1
+  initialRot: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &649993853
 GameObject:
   m_ObjectHideFlags: 0
@@ -3008,7 +3038,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MERCURIO
+  m_Text: SATURNO
 --- !u!222 &649993856
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3129,7 +3159,6 @@ RectTransform:
   m_Children:
   - {fileID: 203596570}
   - {fileID: 1138416745}
-  - {fileID: 1994576979}
   m_Father: {fileID: 1211565452}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3234,10 +3263,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Mercurio es el primer planeta en orden de distancia al Sol y el m\xE1s
-    peque\xF1o del sistema solar, despu\xE9s de Mercurio.\r\nGravedad:  3,7 m/s2.\nRadio:2.439,7
-    km\r.\nMasa: 3,285 x 10^23 kg (0,055 M\u2295)\r.\nDuraci\xF3n del d\xEDa: 59d
-    0h 0m\r.\nDistancia desde el Sol: 58 millones km.\r\nPer\xEDodo orbital: 88 d\xEDas\r."
+  m_Text: "J\xFApiter es el planeta m\xE1s grande del sistema solar y el quinto en
+    orden de lejan\xEDa al Sol.\u200B Es un gigante gaseoso que forma parte de los
+    denominados planetas exteriores..\r\nGravedad: 24,73 m/s2\nRadio: 69.911 km\r\nMasa: 
+    1,898 x 10^27 kg (317,8 M\u2295)\r\nDuraci\xF3n del d\xEDa: 0d 9h 0m\r\nDistancia
+    desde el Sol: 778,5 millones km\r\nPer\xEDodo orbital:12 a\xF1os \r\nSat\xE9lites:
+    Europa, Io, Calisto, S/2003 j 19 , Amaltea, entre otras.( se especula m\xE1s
+    de 79)\r"
 --- !u!222 &679244446
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3477,7 +3509,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 761202709}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 5, z: 0}
+  m_LocalPosition: {x: 0, y: 0.9, z: 0}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_Children: []
   m_Father: {fileID: 1787586916}
@@ -3547,7 +3579,7 @@ TextMesh:
   m_FontSize: 50
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 12800000, guid: da16a728e99fc7c44966ef24d3a05064, type: 3}
+  m_Font: {fileID: 12800000, guid: e1807e2b99bfdb44eba7a3cf3ea3843d, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -3570,7 +3602,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: da16a728e99fc7c44966ef24d3a05064, type: 3}
+  - {fileID: 2100000, guid: e1807e2b99bfdb44eba7a3cf3ea3843d, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3673,6 +3705,92 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 816869887}
   m_Mesh: {fileID: -3888634241487664212, guid: 3190855e4d464a64ba952226905bd476, type: 3}
+--- !u!1 &819153719
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 819153723}
+  - component: {fileID: 819153722}
+  - component: {fileID: 819153721}
+  - component: {fileID: 819153720}
+  m_Layer: 0
+  m_Name: PoolAsteroides
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &819153720
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819153719}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 8, z: 30}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &819153721
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819153719}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 3
+--- !u!114 &819153722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819153719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d67fa884ec20d4f8917b483d5cec72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  asteroide: {fileID: 1733363276567071058, guid: bf5b912c01eb2ba449031bd8238fa549,
+    type: 3}
+  cantidadDeAsteroides: 15
+  posicionesIniciales:
+  - {fileID: 1578741185}
+  - {fileID: 2000558507}
+  - {fileID: 1246486910}
+  - {fileID: 1256386675}
+  - {fileID: 1968891253}
+  - {fileID: 2012429701}
+  asteroidesPadre: {fileID: 1911042526}
+--- !u!4 &819153723
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819153719}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20, y: 0, z: 130.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1117237410}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &823799300
 GameObject:
   m_ObjectHideFlags: 0
@@ -3721,6 +3839,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   earthDays: 87.6
   years: 1
+  initialRot: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &864607003
 GameObject:
   m_ObjectHideFlags: 0
@@ -3785,7 +3904,7 @@ TextMesh:
   m_FontSize: 50
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 12800000, guid: da16a728e99fc7c44966ef24d3a05064, type: 3}
+  m_Font: {fileID: 12800000, guid: 0c039de217646044084708a4fda2511b, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -3808,7 +3927,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: da16a728e99fc7c44966ef24d3a05064, type: 3}
+  - {fileID: 2100000, guid: 0c039de217646044084708a4fda2511b, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3931,7 +4050,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 893988714}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 0.55, z: 0}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_Children: []
   m_Father: {fileID: 289130989}
@@ -3966,8 +4085,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 897763879}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 10.8}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_LocalPosition: {x: 0, y: 0, z: 27.3}
+  m_LocalScale: {x: 6, y: 6, z: 6}
   m_Children:
   - {fileID: 534472676}
   - {fileID: 269315442}
@@ -4050,6 +4169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   earthDays: 5832
   years: 0
+  initialRot: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &897763885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4127,7 +4247,7 @@ TextMesh:
   m_FontSize: 50
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 12800000, guid: da16a728e99fc7c44966ef24d3a05064, type: 3}
+  m_Font: {fileID: 12800000, guid: 0c039de217646044084708a4fda2511b, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -4150,7 +4270,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: da16a728e99fc7c44966ef24d3a05064, type: 3}
+  - {fileID: 2100000, guid: 0c039de217646044084708a4fda2511b, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4172,6 +4292,68 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &932073133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 932073135}
+  - component: {fileID: 932073134}
+  m_Layer: 0
+  m_Name: ManagerDeRotaciones
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &932073134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932073133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9797a3ce435b774db84ae2f285a650e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotacionesDeLosPlanetas:
+  - {fileID: 823799302}
+  - {fileID: 1967705150}
+  - {fileID: 1011641278}
+  - {fileID: 1017090739}
+  - {fileID: 624402562}
+  - {fileID: 937177906}
+  - {fileID: 1970410582}
+  - {fileID: 1618521030}
+  - {fileID: 1482343844}
+  - {fileID: 1859430894}
+  - {fileID: 897763884}
+  - {fileID: 610790421}
+  - {fileID: 1787586920}
+  - {fileID: 1382629680}
+  - {fileID: 289130993}
+  - {fileID: 2064361799}
+  - {fileID: 1364335426}
+  - {fileID: 1192992372}
+--- !u!4 &932073135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932073133}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &937177904
 GameObject:
   m_ObjectHideFlags: 0
@@ -4220,6 +4402,148 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   earthDays: 10585
   years: 1
+  initialRot: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &961305854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 961305857}
+  - component: {fileID: 961305856}
+  - component: {fileID: 961305855}
+  m_Layer: 0
+  m_Name: SonidoFX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &961305855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961305854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e310921bead1f864ba812ba385b0ca08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!82 &961305856
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961305854}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 5ed061f12ef8a534eaba625317814f59,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 848a09521adda2a419964b24a3bc14e5, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.6
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 1
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &961305857
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961305854}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 69.64695, y: 1277.2694, z: -292.24634}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &974888861
 GameObject:
   m_ObjectHideFlags: 0
@@ -4244,7 +4568,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 974888861}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.95, z: 0}
+  m_LocalPosition: {x: 0, y: 0.6, z: 0}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_Children: []
   m_Father: {fileID: 2064361795}
@@ -4274,7 +4598,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 993447605}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 10, z: 0}
+  m_LocalPosition: {x: 0, y: 1.6, z: 0}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_Children: []
   m_Father: {fileID: 1859430890}
@@ -4328,6 +4652,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   earthDays: 365
   years: 1
+  initialRot: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &1017090737
 GameObject:
   m_ObjectHideFlags: 0
@@ -4376,6 +4701,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   earthDays: 657
   years: 1
+  initialRot: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &1063570554
 GameObject:
   m_ObjectHideFlags: 0
@@ -4477,10 +4803,46 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1078999083}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0.6, z: 0}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_Children: []
   m_Father: {fileID: 610790417}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1117237409
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1117237410}
+  m_Layer: 0
+  m_Name: PosicionesIniciales
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1117237410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117237409}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1578741185}
+  - {fileID: 2000558507}
+  - {fileID: 1246486910}
+  - {fileID: 1256386675}
+  - {fileID: 1968891253}
+  - {fileID: 2012429701}
+  m_Father: {fileID: 819153723}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1138416744
@@ -4495,7 +4857,6 @@ GameObject:
   - component: {fileID: 1138416748}
   - component: {fileID: 1138416747}
   - component: {fileID: 1138416746}
-  - component: {fileID: 1138416749}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -4566,7 +4927,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1138416749}
+      - m_Target: {fileID: 961305855}
+        m_TargetAssemblyTypeName: SoundFX, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 932073134}
         m_TargetAssemblyTypeName: StopRotation, Assembly-CSharp
         m_MethodName: CambiarRotaciones
         m_Mode: 1
@@ -4616,37 +4989,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1138416744}
   m_CullTransparentMesh: 1
---- !u!114 &1138416749
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1138416744}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9797a3ce435b774db84ae2f285a650e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotacionesDeLosPlanetas:
-  - {fileID: 823799302}
-  - {fileID: 1967705150}
-  - {fileID: 1011641278}
-  - {fileID: 1017090739}
-  - {fileID: 624402562}
-  - {fileID: 937177906}
-  - {fileID: 1970410582}
-  - {fileID: 1618521030}
-  - {fileID: 1482343844}
-  - {fileID: 1859430894}
-  - {fileID: 897763884}
-  - {fileID: 610790421}
-  - {fileID: 1787586920}
-  - {fileID: 1382629680}
-  - {fileID: 289130993}
-  - {fileID: 2064361799}
-  - {fileID: 1364335426}
-  - {fileID: 1192992372}
 --- !u!1 &1192992367
 GameObject:
   m_ObjectHideFlags: 0
@@ -4676,8 +5018,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1192992367}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 509.7}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalPosition: {x: 0, y: 0, z: 348.6}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 1358067411}
   - {fileID: 1482729008}
@@ -4760,6 +5102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   earthDays: 144
   years: 0
+  initialRot: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1192992373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4849,6 +5192,66 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1211565451}
   m_CullTransparentMesh: 1
+--- !u!1 &1246486909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1246486910}
+  m_Layer: 0
+  m_Name: PosicionInicial (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1246486910
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246486909}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -40, y: 0, z: -5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1117237410}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &1256386674
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1256386675}
+  m_Layer: 0
+  m_Name: PosicionInicial (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1256386675
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256386674}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -40, y: 0, z: 10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1117237410}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1299795456
 GameObject:
   m_ObjectHideFlags: 0
@@ -4919,7 +5322,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MERCURIO
+  m_Text: VENUS
 --- !u!222 &1299795459
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4998,10 +5401,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Mercurio es el primer planeta en orden de distancia al Sol y el m\xE1s
-    peque\xF1o del sistema solar, despu\xE9s de Mercurio.\r\nGravedad:  3,7 m/s2.\nRadio:2.439,7
-    km\r.\nMasa: 3,285 x 10^23 kg (0,055 M\u2295)\r.\nDuraci\xF3n del d\xEDa: 59d
-    0h 0m\r.\nDistancia desde el Sol: 58 millones km.\r\nPer\xEDodo orbital: 88 d\xEDas\r."
+  m_Text: "Venus es el segundo planeta del sistema solar en orden de proximidad al
+    Sol y el tercero m\xE1s peque\xF1o despu\xE9s de Mercurio y Marte. Al igual que
+    Mercurio, carece de sat\xE9lites naturales.\r\nGravedad: 8,87 m/s2\nRadio: 6.051,8
+    km\r\nMasa:  4,867 x 10^24 kg (0,815 M\u2295)\r\nDuraci\xF3n del d\xEDa: 243d
+    0h 0m\r\nDistancia desde el Sol: 108 millones km\r\nPer\xEDodo orbital: 225 d\xEDas\r"
 --- !u!222 &1312627225
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5034,7 +5438,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1331562362}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 5, z: 0}
+  m_LocalPosition: {x: 0, y: 0.85, z: 0}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_Children: []
   m_Father: {fileID: 1364335422}
@@ -5064,7 +5468,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1358067410}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_Children: []
   m_Father: {fileID: 1192992368}
@@ -5099,8 +5503,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1364335421}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 449.5}
-  m_LocalScale: {x: 4.8, y: 4.8, z: 4.8}
+  m_LocalPosition: {x: 0, y: 0, z: 309.7}
+  m_LocalScale: {x: 14.4, y: 14.4, z: 14.4}
   m_Children:
   - {fileID: 1923160607}
   - {fileID: 1331562363}
@@ -5183,6 +5587,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   earthDays: 16.08
   years: 0
+  initialRot: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1364335427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5225,8 +5630,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1382629675}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 77.85}
-  m_LocalScale: {x: 13.2, y: 13.2, z: 13.2}
+  m_LocalPosition: {x: 0, y: 0, z: 141.1}
+  m_LocalScale: {x: 26.4, y: 26.4, z: 26.4}
   m_Children:
   - {fileID: 380704460}
   - {fileID: 1704814967}
@@ -5309,6 +5714,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   earthDays: 9.84
   years: 0
+  initialRot: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1382629681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5370,6 +5776,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   earthDays: 90520
   years: 1
+  initialRot: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &1482729007
 GameObject:
   m_ObjectHideFlags: 0
@@ -5394,7 +5801,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1482729007}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 10, z: 0}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_Children: []
   m_Father: {fileID: 1192992368}
@@ -5470,10 +5877,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Mercurio es el primer planeta en orden de distancia al Sol y el m\xE1s
-    peque\xF1o del sistema solar, despu\xE9s de Mercurio.\r\nGravedad:  3,7 m/s2.\nRadio:2.439,7
-    km\r.\nMasa: 3,285 x 10^23 kg (0,055 M\u2295)\r.\nDuraci\xF3n del d\xEDa: 59d
-    0h 0m\r.\nDistancia desde el Sol: 58 millones km.\r\nPer\xEDodo orbital: 88 d\xEDas\r."
+  m_Text: "Urano es el s\xE9ptimo planeta del sistema solar, el tercero de mayor
+    tama\xF1o, y el cuarto m\xE1s masivo.\r\nGravedad: 8,87 m/s2\nRadio: 25.362 km\r\nMasa:
+    8,681 x 10^25 kg (14,54 M\u2295)\r\nDuraci\xF3n del d\xEDa: 0d 17h 14m\r\nDistancia
+    desde el Sol: 2,871 miles de millones km\r\nPer\xEDodo orbital: 84 a\xF1os \r\nSat\xE9lites:
+    Cuenta con 27 lunas y 13 sat\xE9lites \r"
 --- !u!222 &1509393935
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5482,6 +5890,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1509393932}
   m_CullTransparentMesh: 1
+--- !u!1 &1578741184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1578741185}
+  m_Layer: 0
+  m_Name: PosicionInicial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1578741185
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578741184}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -40, y: 0, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1117237410}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1600713781
 GameObject:
   m_ObjectHideFlags: 0
@@ -5552,7 +5990,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MERCURIO
+  m_Text: MARTE
 --- !u!222 &1600713784
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5631,10 +6069,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Mercurio es el primer planeta en orden de distancia al Sol y el m\xE1s
-    peque\xF1o del sistema solar, despu\xE9s de Mercurio.\r\nGravedad:  3,7 m/s2.\nRadio:2.439,7
-    km\r.\nMasa: 3,285 x 10^23 kg (0,055 M\u2295)\r.\nDuraci\xF3n del d\xEDa: 59d
-    0h 0m\r.\nDistancia desde el Sol: 58 millones km.\r\nPer\xEDodo orbital: 88 d\xEDas\r."
+  m_Text: "Neptuno es el octavo planeta en distancia respecto al Sol y el m\xE1s
+    lejano del sistema solar. Forma parte de los denominados planetas exteriores,
+    y dentro de estos, es uno de los gigantes helados, y es el primero que fue descubierto
+    gracias a predicciones matem\xE1ticas.\r\nGravedad: 11,15 m/s2\nRadio: 24.622
+    km\r\nMasa: 1,024 x 10^26 kg (17,15 M\u2295)\r\nDuraci\xF3n del d\xEDa: 0d 16h
+    6m\r\nDistancia desde el Sol: 4,495 miles de millones km\r\nPer\xEDodo orbital:
+    84 a\xF1os \r\nSat\xE9lites: Tiene 13 sat\xE9lites entre ellos Triton, Talasa
+    e Hipocampo\r"
 --- !u!222 &1609180700
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5691,6 +6133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   earthDays: 60225
   years: 1
+  initialRot: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &1704814966
 GameObject:
   m_ObjectHideFlags: 0
@@ -5715,7 +6158,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1704814966}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 5, z: 0}
+  m_LocalPosition: {x: 0, y: 0.7, z: 0}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_Children: []
   m_Father: {fileID: 1382629676}
@@ -5791,10 +6234,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Mercurio es el primer planeta en orden de distancia al Sol y el m\xE1s
-    peque\xF1o del sistema solar, despu\xE9s de Mercurio.\r\nGravedad:  3,7 m/s2.\nRadio:2.439,7
-    km\r.\nMasa: 3,285 x 10^23 kg (0,055 M\u2295)\r.\nDuraci\xF3n del d\xEDa: 59d
-    0h 0m\r.\nDistancia desde el Sol: 58 millones km.\r\nPer\xEDodo orbital: 88 d\xEDas\r."
+  m_Text: "Plut\xF3n, designado Pluto, es un planeta enano del sistema solar situado
+    a continuaci\xF3n de la \xF3rbita de Neptuno\nGravedad: 0,62 m/s\xB2\nRadio:
+    1.188,3km\nMasa: 1,30 \xD7 1022 kg\nDuraci\xF3n del d\xEDa: 6d 0h 0m\nDistancia
+    desde el Sol: 4,495 miles de millones km\nPer\xEDodo orbital: 248 a\xF1os \nSat\xE9lites: 
+    Caronte, Nix, Estigia,\_Cerbero,\_Hidra"
 --- !u!222 &1705477459
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6066,7 +6510,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MERCURIO
+  m_Text: TIERRA
 --- !u!222 &1774616724
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6218,8 +6662,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1787586915}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 22.79}
-  m_LocalScale: {x: 1.14, y: 1.14, z: 1.14}
+  m_LocalPosition: {x: 0, y: 0, z: 69.9}
+  m_LocalScale: {x: 11.4, y: 11.4, z: 11.4}
   m_Children:
   - {fileID: 1919584717}
   - {fileID: 761202710}
@@ -6302,6 +6746,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   earthDays: 24.72
   years: 0
+  initialRot: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1787586921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6530,7 +6975,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1837383946}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 5, z: 0}
+  m_LocalPosition: {x: 0, y: 0.9, z: 0}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_Children: []
   m_Father: {fileID: 610790417}
@@ -6565,8 +7010,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1859430889}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5.8}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_LocalPosition: {x: 0, y: 0, z: 14.7}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children:
   - {fileID: 624348894}
   - {fileID: 993447606}
@@ -6649,6 +7094,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   earthDays: 1407.6
   years: 0
+  initialRot: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1859430895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6662,6 +7108,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   information: {fileID: 1729165622}
+--- !u!1 &1911042525
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1911042526}
+  m_Layer: 0
+  m_Name: AsteroidesCreados
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1911042526
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911042525}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 20, y: 0, z: 78.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1919584716
 GameObject:
   m_ObjectHideFlags: 0
@@ -6686,7 +7162,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1919584716}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0.6, z: 0}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_Children: []
   m_Father: {fileID: 1787586916}
@@ -6830,7 +7306,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1923160606}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0.6, z: 0}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_Children: []
   m_Father: {fileID: 1364335422}
@@ -6963,6 +7439,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   earthDays: 219
   years: 1
+  initialRot: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &1968891252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1968891253}
+  m_Layer: 0
+  m_Name: PosicionInicial (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1968891253
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968891252}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -40, y: 0, z: 8.269997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1117237410}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1970410580
 GameObject:
   m_ObjectHideFlags: 0
@@ -7011,6 +7518,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   earthDays: 30660
   years: 1
+  initialRot: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &1976994495
 GameObject:
   m_ObjectHideFlags: 0
@@ -7095,6 +7603,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 961305855}
+        m_TargetAssemblyTypeName: SoundFX, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1976994500}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
         m_MethodName: ChangeSceneName
@@ -7182,7 +7702,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1977608374}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 5, z: 0}
+  m_LocalPosition: {x: 0, y: 0.85, z: 0}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_Children: []
   m_Father: {fileID: 2064361795}
@@ -7366,7 +7886,7 @@ TextMesh:
   m_FontSize: 50
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 12800000, guid: da16a728e99fc7c44966ef24d3a05064, type: 3}
+  m_Font: {fileID: 12800000, guid: 0c039de217646044084708a4fda2511b, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -7389,7 +7909,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: da16a728e99fc7c44966ef24d3a05064, type: 3}
+  - {fileID: 2100000, guid: 0c039de217646044084708a4fda2511b, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7411,7 +7931,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &1994576978
+--- !u!1 &2000558506
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7419,118 +7939,58 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1994576979}
-  - component: {fileID: 1994576982}
-  - component: {fileID: 1994576981}
-  - component: {fileID: 1994576980}
-  m_Layer: 5
-  m_Name: Button (2)
+  - component: {fileID: 2000558507}
+  m_Layer: 0
+  m_Name: PosicionInicial (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1994576979
-RectTransform:
+--- !u!4 &2000558507
+Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1994576978}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 2000558506}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -40, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 675012482}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 150, y: 150}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1994576980
-MonoBehaviour:
+  m_Father: {fileID: 1117237410}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &2012429700
+GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1994576978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1994576981}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1994576981
-MonoBehaviour:
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2012429701}
+  m_Layer: 0
+  m_Name: PosicionInicial (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2012429701
+Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1994576978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1aca7094d918e0c4d81c47412496f237, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1994576982
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1994576978}
-  m_CullTransparentMesh: 1
+  m_GameObject: {fileID: 2012429700}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -40, y: 0, z: -1.73}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1117237410}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &2053022698
 GameObject:
   m_ObjectHideFlags: 0
@@ -7601,10 +8061,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Mercurio es el primer planeta en orden de distancia al Sol y el m\xE1s
-    peque\xF1o del sistema solar, despu\xE9s de Mercurio.\r\nGravedad:  3,7 m/s2.\nRadio:2.439,7
-    km\r.\nMasa: 3,285 x 10^23 kg (0,055 M\u2295)\r.\nDuraci\xF3n del d\xEDa: 59d
-    0h 0m\r.\nDistancia desde el Sol: 58 millones km.\r\nPer\xEDodo orbital: 88 d\xEDas\r."
+  m_Text: "Marte es el cuarto planeta en orden de distancia al Sol y el segundo m\xE1s
+    peque\xF1o del sistema solar, despu\xE9s de Mercurio. Wikipedia\r\nGravedad:
+    3,71 m/s2\nRadio: 3.389,5 km\r\nMasa: 6,39 x 10^23 kg (0,107 M\u2295)\r\nDuraci\xF3n
+    del d\xEDa: 1d 0h 37m\r\nDistancia desde el Sol: 227,9 millones km\r\nPer\xEDodo
+    orbital: 687 d\xEDas\r\nSat\xE9lites: Fobos, Deimos\r"
 --- !u!222 &2053022701
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7642,8 +8103,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2064361794}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 287.1}
-  m_LocalScale: {x: 4.8, y: 4.8, z: 4.8}
+  m_LocalPosition: {x: 0, y: 0, z: 260.3}
+  m_LocalScale: {x: 14.4, y: 14.4, z: 14.4}
   m_Children:
   - {fileID: 974888862}
   - {fileID: 1977608375}
@@ -7726,6 +8187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   earthDays: 17.28
   years: 0
+  initialRot: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &2064361800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7803,7 +8265,7 @@ TextMesh:
   m_FontSize: 50
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 12800000, guid: da16a728e99fc7c44966ef24d3a05064, type: 3}
+  m_Font: {fileID: 12800000, guid: 0c039de217646044084708a4fda2511b, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -7826,7 +8288,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: da16a728e99fc7c44966ef24d3a05064, type: 3}
+  - {fileID: 2100000, guid: 0c039de217646044084708a4fda2511b, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8019,10 +8481,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Mercurio es el primer planeta en orden de distancia al Sol y el m\xE1s
-    peque\xF1o del sistema solar, despu\xE9s de Mercurio.\r\nGravedad:  3,7 m/s2.\nRadio:2.439,7
-    km\r.\nMasa: 3,285 x 10^23 kg (0,055 M\u2295)\r.\nDuraci\xF3n del d\xEDa: 59d
-    0h 0m\r.\nDistancia desde el Sol: 58 millones km.\r\nPer\xEDodo orbital: 88 d\xEDas\r."
+  m_Text: "La Tierra es un planeta del sistema solar que gira alrededor de su estrella
+    \u2014el Sol\u2014 en la tercera \xF3rbita m\xE1s interna. Es el m\xE1s denso
+    y el quinto mayor de los ocho planetas del sistema solar. Tambi\xE9n es el mayor
+    de los cuatro terrestres o rocosos.\r\nGravedad: 9,807 m/s2\nRadio: 6.371 km\r\nMasa: 
+    4,867 x 10^24 kg (0,815 M\u2295)\r\nDuraci\xF3n del d\xEDa: 1d 0h 0m\r\nDistancia
+    desde el Sol: 149,6 millones km\r\nPer\xEDodo orbital: 365 d\xEDas\r\nSat\xE9lites:
+    Luna\r"
 --- !u!222 &2100788909
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8083,6 +8548,7 @@ GameObject:
   - component: {fileID: 212175866532230322}
   - component: {fileID: 5472436117178709916}
   - component: {fileID: 5434462552450501220}
+  - component: {fileID: 6672308126474732644}
   m_Layer: 0
   m_Name: AR Session
   m_TagString: Untagged
@@ -8090,3 +8556,11 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!81 &6672308126474732644
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6672308126474732643}
+  m_Enabled: 1

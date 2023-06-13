@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class LookAtCamera : MonoBehaviour
 {
-    private Camera camera;
+    private Camera myCamera;
     public Transform planeta;
     void Start()
     {
-        camera = Camera.main;
+        myCamera = Camera.main;
     }
 
     // Update is called once per frame
     void Update()
     {
         transform.position = planeta.position;
-        transform.LookAt(camera.transform,Vector3.up);
+        transform.LookAt(myCamera.transform,Vector3.up);
         transform.Rotate(0,180,0);
     }
 }
